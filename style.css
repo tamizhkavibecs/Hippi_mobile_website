@@ -1,0 +1,23 @@
+.fullscreen-landing{
+    background: white url(images/background.jpg) no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+.overlay{
+    background:rgba(255, 255, 255, 0.1);
+    height: 100%;
+}
+.search-box{
+    width: 500px;
+    height: 50px;
+}
+.subscribe-section{
+    background: white url(images/background.jpg) no-repeat scroll center;
+    background-size: cover;
+}
+@media (max-width: 576px) {
+    .search-box{
+        width: 300px;
+    }
+    
+}
